@@ -2,13 +2,10 @@
   "name": "edge-bypass-mapl",
   "type": "module",
   "module": "src/index.js",
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
   "dependencies": {
-    "@mapl/app": "latest"
+    "@mapl/app": "^0.0.20"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1"
   }
 }

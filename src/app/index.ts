@@ -1,9 +1,6 @@
-import { aotc, router } from '@mapl/app';
+import { router } from '@mapl/app';
 
 const app = router()
-  .get('/', {
-    type: 'text',
-    fn: () => 'Hi'
-  });
+  .get('/', () => 'Hi');
 
-export default aotc(app);
+export default app;
