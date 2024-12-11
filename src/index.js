@@ -1,3 +1,3 @@
-import { fetch } from './build/fetch.js';
+import app from "./build/fetch.js";
 
-export default { fetch };
+export default app;
